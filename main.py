@@ -33,7 +33,7 @@ def callback(ch, method, properties, body):
     result = model.transcribe("received_audio.wav")
     # print(result["text"])
 
-    openai.api_key = "pl0CaxJxOvShQ22PO8d6IU3l5rhVWAATFCEoWuVWWuQ"
+    openai.api_key = 
     openai.api_base = "https://chimeragpt.adventblocks.cc/api/v1"
     text = result["text"]
     response = openai.ChatCompletion.create(
